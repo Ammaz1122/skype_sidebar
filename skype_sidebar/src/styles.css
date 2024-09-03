@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-data{
+    background-color: #00AFF0;
+}
+
+.main{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 1rem;
+}
+
+.left img{
+    border-radius: 40px;
+    /* margin-top: 0px; */
+    width: 60px;
+    height: 60px;
+}
+
+.left .title{
+    /* border: 2px solid yellow; */
+    font-size: 10px;
+    /* margineft: 30px; */
+    margin-right: 90px;
+
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rebeccapurple; */
+}
+.left .description .desc{
+    margin-right: 30px;
+    font-size: 10px;
+    /* border: 2px solid red; */
+
+}
